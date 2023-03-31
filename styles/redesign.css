@@ -1,0 +1,18 @@
+body{font-size: 18px;}
+
+header{background-color: #FA2C21;}
+
+a{text-decoration: none;}
+
+a, button{color: #F6F2F4;}
+
+button {
+    border: 0;
+    background-color: transparent;
+}
+button:hover{
+    transition: 0.2s ease-in;
+    color: #5EBAF0;
+}
+
+.nav-title{font-size: 1.8rem;}
