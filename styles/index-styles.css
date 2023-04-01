@@ -10,3 +10,39 @@
 .news-card > img{
     height: 100%;
 }
+.introduction-carousel, .carousel-item > img {max-height: 600px;}
+
+.introduction-carousel{
+    animation-name: surgir-left;
+    animation-duration: 1.6s;
+    animation-timing-function: ease-in;
+    animation-delay: 1.6s;
+    animation-fill-mode: both;
+}
+
+.card-news {
+    animation-name: surgir;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+}
+
+.news{
+    opacity: 0;
+    transition: 1.5s ease-in-out;
+    transform: translateX(-100%);
+}
+
+.news.active{
+    opacity: 1;
+    transform: translateX(0);
+}
+
+@keyframes surgir-left {
+    from {opacity: 0; left: -100%;}
+    to {opacity: 1; left: 0;}
+}
+
+@keyframes surgir{
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
