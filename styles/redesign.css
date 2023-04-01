@@ -18,3 +18,11 @@ button:hover{
 }
 
 .nav-title{font-size: 1.8rem;}
+/* Nav styles end */
+
+main{min-height: 92vh;}
+footer{
+    min-height: 5vh;
+    background-color: #FA2C21;
+    color: white;
+}

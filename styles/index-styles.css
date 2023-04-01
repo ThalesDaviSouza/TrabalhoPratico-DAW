@@ -1,0 +1,12 @@
+.introduction-title{
+    color: #FA2C21;
+    font-size: 2.4rem;
+}
+
+.news-card{
+    height: 38vh;
+}
+
+.news-card > img{
+    height: 100%;
+}
