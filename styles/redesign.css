@@ -1,9 +1,18 @@
-body{font-size: 18px;}
+body{
+    font-size: 18px;
+    font-family: 'Roboto Slab', serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Alkatra', cursive;}
 
 /* Navbar Styles */
 header{background-color: #FA2C21;}
 
-a{text-decoration: none;}
+a{
+    text-decoration: none;
+    font-family: 'Courgette', cursive;
+}
 
 a, button{color: #F6F2F4;}
 

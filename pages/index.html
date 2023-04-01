@@ -9,6 +9,11 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alkatra&family=Courgette&family=Roboto+Slab&display=swap"
+        rel="stylesheet">
+
     <link rel="stylesheet" href="../styles/redesign.css">
     <link rel="stylesheet" href="../styles/index-styles.css">
 
@@ -71,107 +76,201 @@
         </nav>
     </header>
     <main class="row d-flex flex-row m-0">
-        <div class="row col-12 col-md-10 p-5">
+        <div class="row col-12 col-md-8 p-4 m-0 justify-content-center">
             <section class="row d-flex flex-row">
-                <div class="card col-12 col-md-5" style="height: 60vh;">
+                <div class="card col-12 col-lg-5" style="height: 60vh;">
                     <div>
                         <h5 class="card-title introduction-title">Ditadura no Chile</h5>
                         <h6 class="card-subtitle mb-2 text-body-secondary">
                             Uma das ditaduras mais sanguinárias da América Latina
                         </h6>
                         <p class="card-text">
-                            Some quick example text to build on the card title and make up the bulk of the card's content.
+                            Some quick example text to build on the card title and make up the bulk of the card's
+                            content.
                         </p>
                     </div>
                 </div>
-                <div class="d-flex flex-column row col-12 col-12 col-md-7 px-5">
+                <div class="d-none d-lg-flex flex-column row col-12 col-md-7 px-5">
                     <div class="news-card pb-2">
                         <img class="img-fluid" src="../static/augusto-pinochet-ditador.jpg" alt="Augusto Pinochet">
                     </div>
                     <div class="news-card pt-2">
-                        <img class="" src="../static/palacio-da-moeda.jpeg" alt="Augusto Pinochet">
+                        <img class="img-fluid" src="../static/palacio-da-moeda.jpeg" alt="Augusto Pinochet">
                     </div>
                 </div>
             </section>
-            <section>
+            <section class="py-5 mt-5 d-flex flex-column row align-items-center">
+                <div class="card col-10 my-5">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <!-- Button trigger modal -->
+                    <button type="button" class="btn text-bg-danger" data-bs-toggle="modal" data-bs-target="#main-news-1">
+                        Leia mais
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="main-news-1" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                            <div class="modal-content text-bg-dark">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">News 1</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eu libero gravida ligula aliquam euismod. Etiam accumsan blandit sem condimentum ultricies. Nullam urna nulla, varius non efficitur id, suscipit vitae metus. Etiam commodo auctor libero, facilisis varius ante cursus eget. Integer placerat nisl ut dolor elementum, nec blandit metus finibus. Morbi vel arcu risus. Cras malesuada, lorem sed tincidunt maximus, libero metus finibus sapien, eleifend aliquam nunc eros porttitor ligula. Vestibulum lobortis ullamcorper mollis. In ut scelerisque justo. Nullam et imperdiet lacus. Etiam ultrices dapibus velit, at iaculis mauris egestas quis. Donec ut mi interdum, pharetra turpis vel, hendrerit ante.
+
+Nam lacus odio, vehicula et lectus a, sagittis egestas sem. Ut scelerisque leo et velit scelerisque, ac tempor justo eleifend. In quis viverra justo, et dictum mi. Praesent tempus sapien et orci viverra ultricies. Suspendisse at posuere nibh, non volutpat dolor. Duis sed finibus metus, a tempor turpis. Nunc eu feugiat lectus. Nulla posuere commodo purus, non lacinia justo vestibulum commodo. Donec odio felis, commodo eu pretium ut, vehicula nec lorem. Donec lacinia urna vitae tincidunt condimentum. Etiam finibus vulputate velit a vulputate. Aliquam hendrerit sed massa ac mattis. Donec et ante lectus. Curabitur euismod cursus vestibulum. Curabitur ultrices nisi eu consectetur malesuada.
+
+Aliquam erat volutpat. Mauris vehicula magna sapien, id dapibus leo finibus sed. Vestibulum ut odio rhoncus, interdum eros vitae, placerat orci. Nam convallis ultricies semper. Nulla libero metus, posuere id arcu in, eleifend vulputate ligula. Pellentesque non libero fermentum, feugiat felis eget, fermentum lectus. Etiam tincidunt feugiat dui a ullamcorper. Phasellus ullamcorper faucibus justo, at rutrum est elementum quis. Praesent vestibulum metus ac tortor interdum lacinia. Nunc sagittis ex vitae quam hendrerit consectetur. Ut cursus, purus eget dictum consequat, ante lectus consectetur dui, quis commodo turpis libero ac diam.
+
+Curabitur sed lorem sed justo tristique porttitor. Donec consectetur vulputate lectus non feugiat. Proin elit diam, rutrum eu leo sed, aliquet molestie magna. Aliquam erat volutpat. Vivamus sed consequat urna, et ultricies diam. Maecenas nec risus dictum, pretium mauris et, faucibus libero. Cras vel felis malesuada massa mattis vestibulum vitae a quam. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nullam et nisl et nisl imperdiet fringilla nec quis nisi. Cras commodo elit in tortor mattis vestibulum. Vestibulum auctor pellentesque mollis. Integer sollicitudin, lorem ac tristique elementum, orci dolor maximus urna, in suscipit turpis augue nec diam. Etiam cursus neque nec ex ultricies, vel consequat justo feugiat. Nam euismod, ipsum a rutrum maximus, elit mauris efficitur erat, non lacinia ipsum nibh sit amet elit. Sed tristique, eros eu rhoncus hendrerit, quam nunc efficitur nisl, vitae auctor diam lorem et felis.
+
+Phasellus porta arcu lacus, nec efficitur purus interdum euismod. Donec cursus sodales nulla non lacinia. Donec in tempus sapien. Etiam et volutpat tellus, eu tristique mauris. Curabitur imperdiet, nisi quis laoreet rutrum, felis nisl luctus turpis, quis tempor justo enim eget ligula. Curabitur lobortis faucibus accumsan. Integer sed faucibus elit. Nulla et nisi eget orci tincidunt condimentum. Ut aliquet purus massa, et blandit nisi laoreet a. Praesent dui tellus, sodales at sem eget, feugiat sodales elit. Aliquam tincidunt sapien venenatis, porttitor ligula quis, volutpat turpis.
+
+Nam viverra quam orci, ut tristique est fringilla id. Sed convallis ipsum metus, auctor commodo sem gravida at. Duis in feugiat ex. Vivamus id posuere erat. Duis in mollis orci, sed blandit orci. Aliquam libero augue, ornare nec dolor ut, varius elementum ligula. Nunc elementum lectus quis laoreet blandit. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse vitae enim imperdiet justo molestie ultrices. Curabitur nisl ligula, consequat ut fringilla eu, convallis et diam. Vestibulum lobortis sapien leo, eu commodo urna convallis vel.
+
+Duis consectetur nunc quis quam egestas, id placerat tellus commodo. Donec ante lorem, aliquet et dignissim at, vulputate facilisis turpis. Curabitur elit ipsum, rhoncus non lobortis vestibulum, fermentum quis turpis. Phasellus neque orci, sagittis rhoncus rhoncus nec, egestas ut justo. Maecenas non venenatis ex, vitae cursus neque. Nullam ligula justo, tincidunt sed nisl eu, porttitor ullamcorper ante. Mauris iaculis arcu id interdum fringilla.
+
+Nulla felis arcu, lobortis eu lorem aliquam, tincidunt venenatis metus. Duis varius ultrices finibus. Aenean vehicula nibh in lorem viverra tincidunt. In quis quam quam. Sed volutpat, odio non euismod commodo, massa nisl rhoncus tellus, vel interdum purus quam ac lorem. Pellentesque ut velit nibh. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras tincidunt elementum porttitor. Sed sodales, ex sagittis mattis finibus, felis lorem luctus enim, in iaculis tellus arcu egestas leo.
+
+Morbi mattis sit amet sapien in efficitur. Praesent ut massa bibendum, facilisis ligula vel, mattis mauris. Nullam urna quam, interdum sit amet mauris quis, aliquet venenatis nibh. Integer nec nisl erat. Ut posuere suscipit augue, in mollis ante dapibus ut. Suspendisse ut elit in felis elementum feugiat et in felis. Integer placerat, dolor id condimentum sollicitudin, tortor quam laoreet leo, in congue enim lorem at sapien. Aenean bibendum rhoncus placerat. Fusce eget erat posuere, fermentum nisl id, pretium ipsum. Aliquam egestas ac nisi laoreet blandit. Donec auctor erat sed varius ullamcorper. In imperdiet, felis id luctus imperdiet, justo urna condimentum dolor, ac scelerisque lacus nulla eget felis. Duis imperdiet in leo et cursus. Nullam condimentum ligula in orci bibendum convallis quis in turpis.
+
+Fusce at mauris in leo semper varius eget in justo. Nulla eget arcu et dui pulvinar pretium et mollis odio. Aliquam vitae tempor nulla, vel sagittis tellus. Fusce commodo orci non eros mattis, in fringilla dolor venenatis. Curabitur dapibus, nulla in sollicitudin fermentum, metus est interdum mauris, vel posuere nulla leo ac quam. Nam tellus mi, euismod in faucibus a, consequat et nibh. Aliquam eu convallis est. Vivamus eleifend ligula augue, id pretium lorem auctor at. Fusce nec felis gravida, dictum odio nec, ultricies mi. Maecenas sed elit felis. Suspendisse tempor eu tellus sit amet iaculis.
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn text-white"
+                                        data-bs-dismiss="modal">Fechar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                  </div>
+                  <div class="card col-10 my-5">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <!-- Button trigger modal -->
+                    <button type="button" class="btn text-bg-danger" data-bs-toggle="modal" data-bs-target="#main-news-1">
+                        Leia mais
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="main-news-1" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                            <div class="modal-content text-bg-dark">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">News 1</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eu libero gravida ligula aliquam euismod. Etiam accumsan blandit sem condimentum ultricies. Nullam urna nulla, varius non efficitur id, suscipit vitae metus. Etiam commodo auctor libero, facilisis varius ante cursus eget. Integer placerat nisl ut dolor elementum, nec blandit metus finibus. Morbi vel arcu risus. Cras malesuada, lorem sed tincidunt maximus, libero metus finibus sapien, eleifend aliquam nunc eros porttitor ligula. Vestibulum lobortis ullamcorper mollis. In ut scelerisque justo. Nullam et imperdiet lacus. Etiam ultrices dapibus velit, at iaculis mauris egestas quis. Donec ut mi interdum, pharetra turpis vel, hendrerit ante.
+
+Nam lacus odio, vehicula et lectus a, sagittis egestas sem. Ut scelerisque leo et velit scelerisque, ac tempor justo eleifend. In quis viverra justo, et dictum mi. Praesent tempus sapien et orci viverra ultricies. Suspendisse at posuere nibh, non volutpat dolor. Duis sed finibus metus, a tempor turpis. Nunc eu feugiat lectus. Nulla posuere commodo purus, non lacinia justo vestibulum commodo. Donec odio felis, commodo eu pretium ut, vehicula nec lorem. Donec lacinia urna vitae tincidunt condimentum. Etiam finibus vulputate velit a vulputate. Aliquam hendrerit sed massa ac mattis. Donec et ante lectus. Curabitur euismod cursus vestibulum. Curabitur ultrices nisi eu consectetur malesuada.
+
+Aliquam erat volutpat. Mauris vehicula magna sapien, id dapibus leo finibus sed. Vestibulum ut odio rhoncus, interdum eros vitae, placerat orci. Nam convallis ultricies semper. Nulla libero metus, posuere id arcu in, eleifend vulputate ligula. Pellentesque non libero fermentum, feugiat felis eget, fermentum lectus. Etiam tincidunt feugiat dui a ullamcorper. Phasellus ullamcorper faucibus justo, at rutrum est elementum quis. Praesent vestibulum metus ac tortor interdum lacinia. Nunc sagittis ex vitae quam hendrerit consectetur. Ut cursus, purus eget dictum consequat, ante lectus consectetur dui, quis commodo turpis libero ac diam.
+
+Curabitur sed lorem sed justo tristique porttitor. Donec consectetur vulputate lectus non feugiat. Proin elit diam, rutrum eu leo sed, aliquet molestie magna. Aliquam erat volutpat. Vivamus sed consequat urna, et ultricies diam. Maecenas nec risus dictum, pretium mauris et, faucibus libero. Cras vel felis malesuada massa mattis vestibulum vitae a quam. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nullam et nisl et nisl imperdiet fringilla nec quis nisi. Cras commodo elit in tortor mattis vestibulum. Vestibulum auctor pellentesque mollis. Integer sollicitudin, lorem ac tristique elementum, orci dolor maximus urna, in suscipit turpis augue nec diam. Etiam cursus neque nec ex ultricies, vel consequat justo feugiat. Nam euismod, ipsum a rutrum maximus, elit mauris efficitur erat, non lacinia ipsum nibh sit amet elit. Sed tristique, eros eu rhoncus hendrerit, quam nunc efficitur nisl, vitae auctor diam lorem et felis.
+
+Phasellus porta arcu lacus, nec efficitur purus interdum euismod. Donec cursus sodales nulla non lacinia. Donec in tempus sapien. Etiam et volutpat tellus, eu tristique mauris. Curabitur imperdiet, nisi quis laoreet rutrum, felis nisl luctus turpis, quis tempor justo enim eget ligula. Curabitur lobortis faucibus accumsan. Integer sed faucibus elit. Nulla et nisi eget orci tincidunt condimentum. Ut aliquet purus massa, et blandit nisi laoreet a. Praesent dui tellus, sodales at sem eget, feugiat sodales elit. Aliquam tincidunt sapien venenatis, porttitor ligula quis, volutpat turpis.
+
+Nam viverra quam orci, ut tristique est fringilla id. Sed convallis ipsum metus, auctor commodo sem gravida at. Duis in feugiat ex. Vivamus id posuere erat. Duis in mollis orci, sed blandit orci. Aliquam libero augue, ornare nec dolor ut, varius elementum ligula. Nunc elementum lectus quis laoreet blandit. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse vitae enim imperdiet justo molestie ultrices. Curabitur nisl ligula, consequat ut fringilla eu, convallis et diam. Vestibulum lobortis sapien leo, eu commodo urna convallis vel.
+
+Duis consectetur nunc quis quam egestas, id placerat tellus commodo. Donec ante lorem, aliquet et dignissim at, vulputate facilisis turpis. Curabitur elit ipsum, rhoncus non lobortis vestibulum, fermentum quis turpis. Phasellus neque orci, sagittis rhoncus rhoncus nec, egestas ut justo. Maecenas non venenatis ex, vitae cursus neque. Nullam ligula justo, tincidunt sed nisl eu, porttitor ullamcorper ante. Mauris iaculis arcu id interdum fringilla.
+
+Nulla felis arcu, lobortis eu lorem aliquam, tincidunt venenatis metus. Duis varius ultrices finibus. Aenean vehicula nibh in lorem viverra tincidunt. In quis quam quam. Sed volutpat, odio non euismod commodo, massa nisl rhoncus tellus, vel interdum purus quam ac lorem. Pellentesque ut velit nibh. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras tincidunt elementum porttitor. Sed sodales, ex sagittis mattis finibus, felis lorem luctus enim, in iaculis tellus arcu egestas leo.
+
+Morbi mattis sit amet sapien in efficitur. Praesent ut massa bibendum, facilisis ligula vel, mattis mauris. Nullam urna quam, interdum sit amet mauris quis, aliquet venenatis nibh. Integer nec nisl erat. Ut posuere suscipit augue, in mollis ante dapibus ut. Suspendisse ut elit in felis elementum feugiat et in felis. Integer placerat, dolor id condimentum sollicitudin, tortor quam laoreet leo, in congue enim lorem at sapien. Aenean bibendum rhoncus placerat. Fusce eget erat posuere, fermentum nisl id, pretium ipsum. Aliquam egestas ac nisi laoreet blandit. Donec auctor erat sed varius ullamcorper. In imperdiet, felis id luctus imperdiet, justo urna condimentum dolor, ac scelerisque lacus nulla eget felis. Duis imperdiet in leo et cursus. Nullam condimentum ligula in orci bibendum convallis quis in turpis.
+
+Fusce at mauris in leo semper varius eget in justo. Nulla eget arcu et dui pulvinar pretium et mollis odio. Aliquam vitae tempor nulla, vel sagittis tellus. Fusce commodo orci non eros mattis, in fringilla dolor venenatis. Curabitur dapibus, nulla in sollicitudin fermentum, metus est interdum mauris, vel posuere nulla leo ac quam. Nam tellus mi, euismod in faucibus a, consequat et nibh. Aliquam eu convallis est. Vivamus eleifend ligula augue, id pretium lorem auctor at. Fusce nec felis gravida, dictum odio nec, ultricies mi. Maecenas sed elit felis. Suspendisse tempor eu tellus sit amet iaculis.
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn text-white"
+                                        data-bs-dismiss="modal">Fechar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                  </div>
+                  
 
             </section>
         </div>
-        <aside class="col-12 col-md-2">
+        <aside class="col-12 px-3 col-md-4">
+
             <div class="card my-5">
-                <div class="card-header">
+                <div class="card-header text-bg-danger">
                     Carreira de Pinochet
                 </div>
                 <div class="card-body">
                     <h5 class="card-title">Special title treatment</h5>
                     <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn text-bg-danger" data-bs-toggle="modal" data-bs-target="#new-1">
+                        Leia mais
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="new-1" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                            <div class="modal-content text-bg-dark">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eu libero gravida ligula aliquam euismod. Etiam accumsan blandit sem condimentum ultricies. Nullam urna nulla, varius non efficitur id, suscipit vitae metus. Etiam commodo auctor libero, facilisis varius ante cursus eget. Integer placerat nisl ut dolor elementum, nec blandit metus finibus. Morbi vel arcu risus. Cras malesuada, lorem sed tincidunt maximus, libero metus finibus sapien, eleifend aliquam nunc eros porttitor ligula. Vestibulum lobortis ullamcorper mollis. In ut scelerisque justo. Nullam et imperdiet lacus. Etiam ultrices dapibus velit, at iaculis mauris egestas quis. Donec ut mi interdum, pharetra turpis vel, hendrerit ante.
+
+Nam lacus odio, vehicula et lectus a, sagittis egestas sem. Ut scelerisque leo et velit scelerisque, ac tempor justo eleifend. In quis viverra justo, et dictum mi. Praesent tempus sapien et orci viverra ultricies. Suspendisse at posuere nibh, non volutpat dolor. Duis sed finibus metus, a tempor turpis. Nunc eu feugiat lectus. Nulla posuere commodo purus, non lacinia justo vestibulum commodo. Donec odio felis, commodo eu pretium ut, vehicula nec lorem. Donec lacinia urna vitae tincidunt condimentum. Etiam finibus vulputate velit a vulputate. Aliquam hendrerit sed massa ac mattis. Donec et ante lectus. Curabitur euismod cursus vestibulum. Curabitur ultrices nisi eu consectetur malesuada.
+
+Aliquam erat volutpat. Mauris vehicula magna sapien, id dapibus leo finibus sed. Vestibulum ut odio rhoncus, interdum eros vitae, placerat orci. Nam convallis ultricies semper. Nulla libero metus, posuere id arcu in, eleifend vulputate ligula. Pellentesque non libero fermentum, feugiat felis eget, fermentum lectus. Etiam tincidunt feugiat dui a ullamcorper. Phasellus ullamcorper faucibus justo, at rutrum est elementum quis. Praesent vestibulum metus ac tortor interdum lacinia. Nunc sagittis ex vitae quam hendrerit consectetur. Ut cursus, purus eget dictum consequat, ante lectus consectetur dui, quis commodo turpis libero ac diam.
+
+Curabitur sed lorem sed justo tristique porttitor. Donec consectetur vulputate lectus non feugiat. Proin elit diam, rutrum eu leo sed, aliquet molestie magna. Aliquam erat volutpat. Vivamus sed consequat urna, et ultricies diam. Maecenas nec risus dictum, pretium mauris et, faucibus libero. Cras vel felis malesuada massa mattis vestibulum vitae a quam. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nullam et nisl et nisl imperdiet fringilla nec quis nisi. Cras commodo elit in tortor mattis vestibulum. Vestibulum auctor pellentesque mollis. Integer sollicitudin, lorem ac tristique elementum, orci dolor maximus urna, in suscipit turpis augue nec diam. Etiam cursus neque nec ex ultricies, vel consequat justo feugiat. Nam euismod, ipsum a rutrum maximus, elit mauris efficitur erat, non lacinia ipsum nibh sit amet elit. Sed tristique, eros eu rhoncus hendrerit, quam nunc efficitur nisl, vitae auctor diam lorem et felis.
+
+Phasellus porta arcu lacus, nec efficitur purus interdum euismod. Donec cursus sodales nulla non lacinia. Donec in tempus sapien. Etiam et volutpat tellus, eu tristique mauris. Curabitur imperdiet, nisi quis laoreet rutrum, felis nisl luctus turpis, quis tempor justo enim eget ligula. Curabitur lobortis faucibus accumsan. Integer sed faucibus elit. Nulla et nisi eget orci tincidunt condimentum. Ut aliquet purus massa, et blandit nisi laoreet a. Praesent dui tellus, sodales at sem eget, feugiat sodales elit. Aliquam tincidunt sapien venenatis, porttitor ligula quis, volutpat turpis.
+
+Nam viverra quam orci, ut tristique est fringilla id. Sed convallis ipsum metus, auctor commodo sem gravida at. Duis in feugiat ex. Vivamus id posuere erat. Duis in mollis orci, sed blandit orci. Aliquam libero augue, ornare nec dolor ut, varius elementum ligula. Nunc elementum lectus quis laoreet blandit. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse vitae enim imperdiet justo molestie ultrices. Curabitur nisl ligula, consequat ut fringilla eu, convallis et diam. Vestibulum lobortis sapien leo, eu commodo urna convallis vel.
+
+Duis consectetur nunc quis quam egestas, id placerat tellus commodo. Donec ante lorem, aliquet et dignissim at, vulputate facilisis turpis. Curabitur elit ipsum, rhoncus non lobortis vestibulum, fermentum quis turpis. Phasellus neque orci, sagittis rhoncus rhoncus nec, egestas ut justo. Maecenas non venenatis ex, vitae cursus neque. Nullam ligula justo, tincidunt sed nisl eu, porttitor ullamcorper ante. Mauris iaculis arcu id interdum fringilla.
+
+Nulla felis arcu, lobortis eu lorem aliquam, tincidunt venenatis metus. Duis varius ultrices finibus. Aenean vehicula nibh in lorem viverra tincidunt. In quis quam quam. Sed volutpat, odio non euismod commodo, massa nisl rhoncus tellus, vel interdum purus quam ac lorem. Pellentesque ut velit nibh. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras tincidunt elementum porttitor. Sed sodales, ex sagittis mattis finibus, felis lorem luctus enim, in iaculis tellus arcu egestas leo.
+
+Morbi mattis sit amet sapien in efficitur. Praesent ut massa bibendum, facilisis ligula vel, mattis mauris. Nullam urna quam, interdum sit amet mauris quis, aliquet venenatis nibh. Integer nec nisl erat. Ut posuere suscipit augue, in mollis ante dapibus ut. Suspendisse ut elit in felis elementum feugiat et in felis. Integer placerat, dolor id condimentum sollicitudin, tortor quam laoreet leo, in congue enim lorem at sapien. Aenean bibendum rhoncus placerat. Fusce eget erat posuere, fermentum nisl id, pretium ipsum. Aliquam egestas ac nisi laoreet blandit. Donec auctor erat sed varius ullamcorper. In imperdiet, felis id luctus imperdiet, justo urna condimentum dolor, ac scelerisque lacus nulla eget felis. Duis imperdiet in leo et cursus. Nullam condimentum ligula in orci bibendum convallis quis in turpis.
+
+Fusce at mauris in leo semper varius eget in justo. Nulla eget arcu et dui pulvinar pretium et mollis odio. Aliquam vitae tempor nulla, vel sagittis tellus. Fusce commodo orci non eros mattis, in fringilla dolor venenatis. Curabitur dapibus, nulla in sollicitudin fermentum, metus est interdum mauris, vel posuere nulla leo ac quam. Nam tellus mi, euismod in faucibus a, consequat et nibh. Aliquam eu convallis est. Vivamus eleifend ligula augue, id pretium lorem auctor at. Fusce nec felis gravida, dictum odio nec, ultricies mi. Maecenas sed elit felis. Suspendisse tempor eu tellus sit amet iaculis.
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn text-white"
+                                        data-bs-dismiss="modal">Fechar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="card my-5">
-                <div class="card-header">
-                    Carreira de Pinochet
-                </div>
-                <div class="card-body">
-                    <h5 class="card-title">Special title treatment</h5>
-                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                </div>
-            </div>
-            <div class="card my-5">
-                <div class="card-header">
-                    Carreira de Pinochet
-                </div>
-                <div class="card-body">
-                    <h5 class="card-title">Special title treatment</h5>
-                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                </div>
-            </div>
-            <div class="card my-5">
-                <div class="card-header">
-                    Carreira de Pinochet
-                </div>
-                <div class="card-body">
-                    <h5 class="card-title">Special title treatment</h5>
-                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                </div>
-            </div>
-            <div class="card my-5">
-                <div class="card-header">
-                    Carreira de Pinochet
-                </div>
-                <div class="card-body">
-                    <h5 class="card-title">Special title treatment</h5>
-                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                </div>
-            </div>
-            <div class="card my-5">
-                <div class="card-header">
-                    Carreira de Pinochet
-                </div>
-                <div class="card-body">
-                    <h5 class="card-title">Special title treatment</h5>
-                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                </div>
-            </div>
-            <div class="card my-5">
-                <div class="card-header">
-                    Carreira de Pinochet
-                </div>
-                <div class="card-body">
-                    <h5 class="card-title">Special title treatment</h5>
-                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                </div>
-            </div>
+
+
             
         </aside>
     </main>
     <footer class="d-flex align-items-center px-3">
         <!-- Button trigger modal -->
-        <button type="button" class="" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        <button type="button" class="" data-bs-toggle="modal" data-bs-target="#integrantes">
             &copyCopyright 2023
         </button>
 
         <!-- Modal -->
-        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal fade" id="integrantes" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content text-bg-dark">
                     <div class="modal-header">
