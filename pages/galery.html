@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../static/logo.png">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
@@ -15,7 +16,7 @@
         rel="stylesheet">
 
     <link rel="stylesheet" href="../styles/redesign.css">
-    <link rel="stylesheet" href="../styles/index-styles.css">
+    <link rel="stylesheet" href="../styles/galery-styles.css">
 
     <title>Galery</title>
 </head>
@@ -75,7 +76,48 @@
                 </div>
         </nav>
     </header>
-    Galery
+    <main class="row p-4 m-0 d-flex justify-content-around">
+        <div class="img-card col-12 col-md-6 col-lg-3 h-100 p-0 mb-3">
+            <img class="img-fluid" src="../static/augusto-pinochet-ditador.jpg" alt="Augusto Pinochet">
+            <p class="m-0 w-100">Augusto Pinochet</p>
+        </div>
+        <div class="img-card col-12 col-md-6 col-lg-3 h-100 p-0 mb-3">
+            <img class="img-fluid" src="../static/augusto-pinochet-ditador.jpg" alt="Augusto Pinochet">
+            <p class="m-0 w-100">Augusto Pinochet</p>
+        </div>
+        <div class="img-card col-12 col-md-6 col-lg-3 h-100 p-0 mb-3">
+            <img class="img-fluid" src="../static/augusto-pinochet-ditador.jpg" alt="Augusto Pinochet">
+            <p class="m-0 w-100">Augusto Pinochet</p>
+        </div>
+        
+    </main>
+    <footer class="d-flex align-items-center px-3">
+        <!-- Button trigger modal -->
+        <button type="button" class="" data-bs-toggle="modal" data-bs-target="#integrantes">
+            &copyCopyright 2023
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="integrantes" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content text-bg-dark">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">&copy Todos os direitos reservados:</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Thales Davi de Souza</p>
+                        <p>Arthur Henrique Chaves</p>
+                        <p>Caio César</p>
+                        <p>Eduardo Santos Birchal</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="" data-bs-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
