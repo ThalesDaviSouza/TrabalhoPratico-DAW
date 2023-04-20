@@ -1,4 +1,14 @@
-.img-card{position: relative; transition: 0.2s ease-in;}
+.img-card{
+    position: relative; 
+    transition: 0.2s ease-in;
+}
+
+.img-card img {
+    height: 260px;
+    width: -webkit-fill-available;
+    object-fit: cover;
+    object-position: 0% 0%;
+}
 
 .img-card p {
     position: absolute;
@@ -10,7 +20,6 @@
 }
 
 .img-card:hover{
-    transform: scale(1.06);
     box-shadow: 0px 0px 6px black;
 }
 
