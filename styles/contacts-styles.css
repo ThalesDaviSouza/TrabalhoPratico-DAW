@@ -23,6 +23,7 @@
     position: relative;
     animation-name: surgir;
     animation-duration: 2.5s;
+    width: -webkit-fill-available;
 }
 
 .contact-container .contact-card{
