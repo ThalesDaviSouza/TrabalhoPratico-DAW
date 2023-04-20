@@ -35,3 +35,14 @@ footer{
     background-color: #FA2C21;
     color: white;
 }
+
+.page-title{
+    animation-name: surgir;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in;
+}
+
+@keyframes surgir{
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
