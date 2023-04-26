@@ -6,6 +6,7 @@
 .img-card img {
     height: 260px;
     width: -webkit-fill-available;
+    width: -moz-available;
     object-fit: cover;
     object-position: 0% 0%;
 }
