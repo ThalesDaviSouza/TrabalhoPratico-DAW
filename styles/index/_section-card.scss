@@ -1,0 +1,10 @@
+.news{
+    opacity: 0;
+    transition: 1.5s ease-in-out;
+    transform: translateX(-100%);
+}
+
+.news.active{
+    opacity: 1;
+    transform: translateX(0);
+}

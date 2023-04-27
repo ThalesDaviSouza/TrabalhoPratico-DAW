@@ -1,0 +1,27 @@
+@use './base.scss';
+
+body{
+    font-size: 18px;
+    font-family: base.$font-base;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: base.$font-title}
+
+main{min-height: 92vh;}
+footer{
+    min-height: 5vh;
+    background-color: base.$vermelho-base;
+    color: white;
+}
+
+.page-title{
+    animation-name: surgir;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in;
+}
+
+@keyframes surgir{
+    from {opacity: 0;}
+    to {opacity: 1;}
+}

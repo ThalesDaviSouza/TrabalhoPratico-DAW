@@ -1,0 +1,8 @@
+@use './base.scss';
+@import './contacts/contact-card';
+
+/* Animations */
+@keyframes surgir{
+    from {opacity: 0; left: -100%;}
+    to {opacity: 1; left: 0;}
+}

@@ -1,0 +1,35 @@
+@use './base.scss';
+@import './index/section-card';
+@import './index/aside-card';
+@import './index/index-carousel';
+
+// Fazendo as imagens do carosel serem respansivas de acordo com o layout da página
+@media (max-width: 790px) {
+    .introduction-carousel, .carousel-item > img {height: 220px;}
+}
+
+@media (min-width: 790px) and (max-width: 900px) {
+    .introduction-carousel, .carousel-item > img {height: 350px;}
+}
+
+@media (min-width: 900px) and (max-width: 1080px) {
+    .introduction-carousel, .carousel-item > img {height: 400px;}
+}
+
+@media (min-width: 1080px) and (max-width: 1400px) {
+    .introduction-carousel, .carousel-item > img {height: 480px;}
+}
+
+@media (min-width: 1400px) {
+    .introduction-carousel, .carousel-item > img {height: 600px;}
+}
+
+@keyframes surgir-left {
+    from {opacity: 0; left: -100%;}
+    to {opacity: 1; left: 0;}
+}
+
+@keyframes surgir{
+    from {opacity: 0;}
+    to {opacity: 1;}
+}

@@ -15,13 +15,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Alkatra&family=Courgette&family=Roboto+Slab&display=swap"
         rel="stylesheet">
 
-    <link rel="stylesheet" href="../styles/redesign.css">
-    <link rel="stylesheet" href="../styles/index-styles.css">
+    <link rel="stylesheet" href="../styles/styles.css">
 
     <title>Augusto Pinochet</title>
 </head>
 
 <body>
+    <!-- Navbar -->
     <header>
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
@@ -76,10 +76,15 @@
                 </div>
         </nav>
     </header>
+
     <h1 class="mx-5 mt-4 page-title">Home</h1>
+    
+    <!-- Conteúdo Principal da página -->
     <main class="row d-flex flex-row m-0">
-        <div class="row col-12 col-md-8 p-2 m-0 justify-content-center">
-            <section class="row d-flex flex-row m-2">
+        <!-- Informações em destaque -->
+        <section class="row col-12 col-md-8 p-2 m-0 justify-content-center">
+            <!-- Carousel -->
+            <div class="row d-flex flex-row m-2">
                 <div id="carouselExampleAutoplaying" class="carousel slide introduction-carousel"
                     data-bs-ride="carousel">
                     <div class="carousel-inner">
@@ -104,8 +109,9 @@
                         <span class="visually-hidden">Next</span>
                     </button>
                 </div>
-            </section>
-            <section class="py-5 mt-5 d-flex flex-column row align-items-center">
+            </div>
+            <!-- Cards com imagens -->
+            <div class="py-5 mt-5 d-flex flex-column row align-items-center">
                 <div class="d-flex flex-column row align-items-center news-wrapper">
                     <div class="card news col-12 col-md-11 col-lg-8 my-5">
                         <img src="../static/chicago-boys.avif" class="card-img-top my-2" alt="Chicago Boys">
@@ -281,8 +287,10 @@
                     </div>
                 </div>
 
-            </section>
-        </div>
+            </div>
+        </section>
+
+        <!-- Cards listados do lado -->
         <aside class="col-12 px-3 col-md-4">
             <div class="card card-news my-5">
                 <div class="card-header text-bg-danger">
@@ -623,6 +631,7 @@
 
         </aside>
     </main>
+
     <footer class="d-flex align-items-center px-3">
         <!-- Button trigger modal -->
         <button type="button" class="" data-bs-toggle="modal" data-bs-target="#integrantes">
@@ -657,6 +666,7 @@
     crossorigin="anonymous"></script>
 
 <script>
+    // Função para fazer os cards com imagens aparecerem a medida que o usuário 'scrolla' a tela
     function reveal() {
         var reveals = document.querySelectorAll(".news");
 
@@ -675,5 +685,4 @@
 
     window.addEventListener("scroll", reveal);
 </script>
-
 </html>

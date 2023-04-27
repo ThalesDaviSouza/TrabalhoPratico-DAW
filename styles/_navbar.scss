@@ -1,0 +1,22 @@
+@use './base.scss';
+
+header{background-color: base.$vermelho-base;}
+
+a{
+    text-decoration: none;
+    font-family: 'Courgette', cursive;
+}
+
+a, button{color: #F6F2F4;}
+
+button {
+    border: 0;
+    border-bottom: 1px solid transparent;
+    background-color: transparent;
+}
+button:hover{
+    transition: 0.32s ease-in-out;
+    border-color: white;
+}
+
+.nav-title{font-size: 1.8rem;}

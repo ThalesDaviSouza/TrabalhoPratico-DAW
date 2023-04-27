@@ -1,0 +1,9 @@
+.introduction-carousel, .carousel-item > img {object-fit: cover; object-position: 0% 0%;}
+
+.introduction-carousel{
+    animation-name: surgir-left;
+    animation-duration: 1.6s;
+    animation-timing-function: ease-in;
+    animation-delay: 1.6s;
+    animation-fill-mode: both;
+}

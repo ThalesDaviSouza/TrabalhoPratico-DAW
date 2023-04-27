@@ -1,0 +1,258 @@
+header {
+  background-color: #FA2C21;
+}
+
+a {
+  text-decoration: none;
+  font-family: "Courgette", cursive;
+}
+
+a, button {
+  color: #F6F2F4;
+}
+
+button {
+  border: 0;
+  border-bottom: 1px solid transparent;
+  background-color: transparent;
+}
+
+button:hover {
+  transition: 0.32s ease-in-out;
+  border-color: white;
+}
+
+.nav-title {
+  font-size: 1.8rem;
+}
+
+body {
+  font-size: 18px;
+  font-family: "Roboto Slab", serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Alkatra", cursive;
+}
+
+main {
+  min-height: 92vh;
+}
+
+footer {
+  min-height: 5vh;
+  background-color: #FA2C21;
+  color: white;
+}
+
+.page-title {
+  animation-name: surgir;
+  animation-duration: 0.5s;
+  animation-timing-function: ease-in;
+}
+
+@keyframes surgir {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.news {
+  opacity: 0;
+  transition: 1.5s ease-in-out;
+  transform: translateX(-100%);
+}
+
+.news.active {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.card-news {
+  animation-name: surgir;
+  animation-duration: 2s;
+  animation-timing-function: ease-in;
+}
+
+.introduction-carousel, .carousel-item > img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 0% 0%;
+     object-position: 0% 0%;
+}
+
+.introduction-carousel {
+  animation-name: surgir-left;
+  animation-duration: 1.6s;
+  animation-timing-function: ease-in;
+  animation-delay: 1.6s;
+  animation-fill-mode: both;
+}
+
+@media (max-width: 790px) {
+  .introduction-carousel, .carousel-item > img {
+    height: 220px;
+  }
+}
+@media (min-width: 790px) and (max-width: 900px) {
+  .introduction-carousel, .carousel-item > img {
+    height: 350px;
+  }
+}
+@media (min-width: 900px) and (max-width: 1080px) {
+  .introduction-carousel, .carousel-item > img {
+    height: 400px;
+  }
+}
+@media (min-width: 1080px) and (max-width: 1400px) {
+  .introduction-carousel, .carousel-item > img {
+    height: 480px;
+  }
+}
+@media (min-width: 1400px) {
+  .introduction-carousel, .carousel-item > img {
+    height: 600px;
+  }
+}
+@keyframes surgir-left {
+  from {
+    opacity: 0;
+    left: -100%;
+  }
+  to {
+    opacity: 1;
+    left: 0;
+  }
+}
+@keyframes surgir {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.img-card {
+  position: relative;
+  transition: 0.2s ease-in;
+}
+
+.img-card img {
+  height: 260px;
+  width: -webkit-fill-available;
+  width: -moz-available;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 0% 0%;
+     object-position: 0% 0%;
+}
+
+.img-card p {
+  position: absolute;
+  bottom: 0;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.7);
+  opacity: 0;
+  transition: 0.1s ease-in;
+}
+
+.img-card:hover {
+  box-shadow: 0px 0px 6px black;
+}
+
+.img-card:hover p {
+  opacity: 1;
+}
+
+.contact-card img {
+  border-radius: 3px;
+  z-index: 1;
+}
+
+.contact-content {
+  height: 50px;
+  padding: 6px;
+  box-sizing: border-box;
+  position: absolute;
+  background: rgba(27, 27, 27, 0.5);
+  color: white;
+  z-index: 2;
+  bottom: 0;
+  right: 0;
+  text-align: center;
+  transition: 0.4s ease-in;
+}
+
+.contact-card {
+  position: relative;
+  animation-name: surgir;
+  animation-duration: 2.5s;
+  width: -webkit-fill-available;
+  width: -moz-available;
+}
+
+.contact-container .contact-card {
+  max-height: 600px;
+  overflow: hidden;
+  color: white;
+  box-shadow: 5px 5px 20px black;
+  border-radius: 80px 40px 40px 120px;
+}
+
+.contact-content p, .contact-content a {
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.4s ease-in;
+}
+
+.contact-card:hover p, .contact-card:hover a {
+  visibility: visible;
+  opacity: 1;
+}
+
+.contact-card:hover .contact-content {
+  height: 120px;
+  background: rgba(0, 0, 0, 0.9);
+}
+
+.contact-content h3 {
+  font-size: 1.8em;
+}
+
+.contact-content a {
+  font-weight: 700;
+}
+
+.contacts svg {
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.5s ease-out;
+  transform: scale(2.5);
+}
+
+.contact-container:hover .contacts svg {
+  visibility: visible;
+  opacity: 1;
+}
+
+.contacts a {
+  color: black;
+}
+
+.contacts a:hover {
+  color: #FA2C21;
+}
+
+/* Animations */
+@keyframes surgir {
+  from {
+    opacity: 0;
+    left: -100%;
+  }
+  to {
+    opacity: 1;
+    left: 0;
+  }
+}/*# sourceMappingURL=styles.css.map */
