@@ -3,9 +3,12 @@ Projeto feito para um trabalho prático da matéria Desenvolvimento de Aplicativ
 ### Integrantes do grupo:
 - #### [Thales Davi de Souza](https://github.com/ThalesDaviSouza)<br/>
 [<img src="https://thalesdavisouza.github.io/TrabalhoPratico-DAW/static/thmalokerozuado.jpg" style="height:360px;"/>](https://github.com/ThalesDaviSouza)
-- [Caio César](https://github.com/CostaCesar)
-- [Eduardo Santos Birchal](https://github.com/EduardoBirchal)
-- [Arthur Henrique Chaves](https://github.com/AHChaves)
+- #### [Caio César](https://github.com/CostaCesar)<br/>
+[<img src="https://thalesdavisouza.github.io/TrabalhoPratico-DAW/static/caio-trekking.jpg" style="height:360px;"/>](https://github.com/CostaCesar)
+- #### [Eduardo Santos Birchal](https://github.com/EduardoBirchal)<br/>
+[<img src="https://thalesdavisouza.github.io/TrabalhoPratico-DAW/static/bongocafetao.jpeg" style="height:360px;"/>](https://github.com/EduardoBirchal)
+- #### [Arthur Henrique Chaves](https://github.com/AHChaves)<br/>
+[<img src="https://thalesdavisouza.github.io/TrabalhoPratico-DAW/static/Palhaco_cu.png" style="height:360px;"/>](https://github.com/AHChaves)
 
 ## Proposta do trabalho:
 O professor nos propós a seguinte tarefa: <br/>
