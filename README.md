@@ -23,8 +23,8 @@ O professor nos propós a seguinte tarefa: <br/>
 
 ## As tecnologias usadas:
 ### Bootstrap:<br/>
-[![Bootstrap](https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png)]([Github](https://getbootstrap.com)) <br/>
+[![Bootstrap](https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png)](https://getbootstrap.com) <br/>
 ### Sass:<br/>
-[![Sass](https://sass-lang.com/assets/img/logos/logo-b6e1ef6e.svg)]([Sass](https://sass-lang.com)) <br/>
+[![Sass](https://sass-lang.com/assets/img/logos/logo-b6e1ef6e.svg)](https://sass-lang.com) <br/>
 ### Html, Css e JS:<br/>
-[![Html.Css,Js](https://www.alura.com.br/artigos/assets/html-css-js/html-css-e-js-definicoes.png)]([HtmlCssJs](https://www.alura.com.br/artigos/html-css-e-js-definicoes))
+[![Html.Css,Js](https://www.alura.com.br/artigos/assets/html-css-js/html-css-e-js-definicoes.png)](https://www.alura.com.br/artigos/html-css-e-js-definicoes)
