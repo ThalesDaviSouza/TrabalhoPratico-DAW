@@ -20,3 +20,11 @@ O professor nos propós a seguinte tarefa: <br/>
 *O menu deve redirecionar para pelo menos as seguintes páginas: a galeria de imagens, a página de contato e links para as principais referências utilizadas para a escrita do conteúdo da página.*
 
 *Para o desenvolvimento do trabalho, o aluno deverá utilizar tecnologias como animações e transições em CSS, algum mecanismo de page layout (bootstrap, flexbox ou css grid), SASS e uso correto dos elementos semânticos da linguagem HTML, como `<header>`, `<main>`, `<aside>`, `<footer>`, etc.*"
+
+## As tecnologias usadas:
+### Bootstrap:<br/>
+[![Bootstrap](https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png)]([Github](https://getbootstrap.com)) <br/>
+### Sass:<br/>
+[![Sass](https://sass-lang.com/assets/img/logos/logo-b6e1ef6e.svg)]([Sass](https://sass-lang.com)) <br/>
+### Html, Css e JS:<br/>
+[![Html.Css,Js](https://www.alura.com.br/artigos/assets/html-css-js/html-css-e-js-definicoes.png)]([HtmlCssJs](https://www.alura.com.br/artigos/html-css-e-js-definicoes))
